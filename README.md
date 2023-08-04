@@ -3,7 +3,7 @@
 # San Diego Association Of Governments Area Residential Zoning Data
 ## Published by The Othering &amp; Belonging Institute
 
-This data repository contains the Othering &amp; Belonging Institute's residential zoning data, originally analyzed and published in the [Single-Family Zoning in the San Diego Region Report](https://belonging.berkeley.edu/single-family-zoning-greater-los-angeles)  
+This data repository contains the Othering &amp; Belonging Institute's residential zoning data, originally analyzed and published in the [Single-Family Zoning in the San Diego Region Report](https://belonging.berkeley.edu/single-family-zoning-san-diego-region) 
 
 ## Citation
 Menendian, Stephen, Samir Gambhir, Shahan Shahid Nawaz. 2022. *Single-Family Zoning in San Diego*. Distributed by Othering &amp; Belonging Institute. 
