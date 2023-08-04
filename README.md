@@ -1,15 +1,15 @@
 <img src="obi_logo.png" width="275" height="100">
 
-# San Diego Association Of Governments Area Residential Zoning Data
+# Fresno Association Of Governments Area Residential Zoning Data
 ## Published by The Othering &amp; Belonging Institute
 
-This data repository contains the Othering &amp; Belonging Institute's residential zoning data, originally analyzed and published in the [Single-Family Zoning in the San Diego Region Report](https://belonging.berkeley.edu/single-family-zoning-greater-los-angeles)  
+This data repository contains the Othering &amp; Belonging Institute's residential zoning data, originally analyzed and published in the [Single-Family Zoning in the Fresno Region Report]()  
 
 ## Citation
-Menendian, Stephen, Samir Gambhir, Shahan Shahid Nawaz. 2022. *Single-Family Zoning in San Diego*. Distributed by Othering &amp; Belonging Institute. 
+Nawaz, Shahan Shahid, Stephen Menendian, Samir Gambhir. 2022. *Single-Family Zoning in Fresno*. Distributed by Othering &amp; Belonging Institute. 
 
 ## About the Data
-This repository includes parcel and district level shapefiles for all 19 incorporated. Each shapefile contains a categorization of residential zoning based on the most recent publicly available zoning maps and municipal code at the time of initial analysis (Fall 2021).  
+This repository includes parcel and district level shapefiles for all 15 incorporated jurisdictions, and 1 unincorporated area. Each shapefile contains a categorization of residential zoning based on the most recent publicly available zoning maps and municipal code at the time of initial analysis (Fall 2021).  
 
 The `city_zone` field records the city's original zoning designation as found in the zoning data.  
 The `zone_descp` field records the description of the `city_zone` based on the city's ordinance.  
@@ -23,7 +23,7 @@ The `zone_descp` field records the description of the `city_zone` based on the c
  NR | Non-Residential | Land zoned for non-residential use, including commercial, industrial, public, and recreation land use  
  ND | Non-Developable | Land outside of municipal boundaries or developable land, including water, waterways, and sphere of influence land. *This category was removed from total land area for analysis.*  
 
-The zoning categories are summarized into four larger categories which was used to create our [city zoning maps](https://belonging.berkeley.edu/san-diego-region-zoning-maps), designated under the `Zoning` field: 
+The zoning categories are summarized into four larger categories which was used to create our [city zoning maps](https://belonging.berkeley.edu/fresno-region-zoning-maps), designated under the `Zoning` field: 
 
 Zoning | Category | Include | 
 ------------ | ------------- | -------------
@@ -35,12 +35,22 @@ Zoning | Category | Include |
 ## About the Project
 This residential zoning data and analysis is part of the Othering &amp; Belonging Institute's broader research on [Segregation](https://belonging.berkeley.edu/roots-structural-racism-2020), an effort to unpack the extent, dynamics, and drivers of racial segregation. 
 
-Exclusionary, single-family zoning has long been cited as a driver for racial segregation. In order to examine the impact of single family zoning in the San Diego Area, we gathered and categorized zoning shapefiles to measure the spatial distribution and extent of restricted single family zoning, specifically as a portion of total residential land use. In [Single-Family Zoning in the San Diego Region Report](https://belonging.berkeley.edu/single-family-zoning-san-diego-region), we used this residential zoning data to analyze measures of segregation against restricted single family zoning to show the role of zoning in driving segregation. We also used this residential zoning data to assess the characteristics of communities within and outside of restricted single family zoning in the San Diego area.
+Exclusionary, single-family zoning has long been cited as a driver for racial segregation. In order to examine the impact of single family zoning in the Fresno Area, we gathered and categorized zoning shapefiles to measure the spatial distribution and extent of restricted single family zoning, specifically as a portion of total residential land use. In [Single-Family Zoning in the Fresno Region Report](), we used this residential zoning data to analyze measures of segregation against restricted single family zoning to show the role of zoning in driving segregation. We also used this residential zoning data to assess the characteristics of communities within and outside of restricted single family zoning in the Fresno area.
 
 ## Methodology
 
 ### Data procurement: 
-Zoning shapefiles for each city in the region were gathered from multiple sources, including the [SanGIS Regional GIS Data Warehouse Open Data Portal repository](https://sdgis-sandag.opendata.arcgis.com/datasets/SANDAG::zoning-boundaries-gissd-sandag-org/explore?location=32.909909%2C-117.032931%2C10.18), and city planning/GIS or relevant departments in the listed order to ensure we have the most updated shapefiles to conduct our analysis.
+Zoning shapefiles for each city in the region were gathered from multiple sources, including a dataset created by [The California Governor’s Office of Planning and Research (OPR)](https://opr.ca.gov/) through grant funding provided by the U.S. Department of Defense Office of Local Defense Community Cooperation (OLDCC), and city planning/GIS or relevant departments to ensure we have the most updated shapefiles to conduct our analysis.
+
+### Data disclaimer:
+The California Governor’s Office of Planning and Research (OPR) makes no warranty, representation or guaranty as to the content, sequence, accuracy, timeliness, or completeness
+of any of the data provided herein. This data has been compiled from a variety of sources, collected and maintained for different purposes, at different times. This data was compiled and
+analyzed by OPR through grant funding provided by the U.S. Department of Defense Office of Local Defense Community Cooperation (OLDCC).
+
+This information should not be used as a substitute for legal, accounting, real estate, business, tax, or other professional advice. It should not be used as a substitute for information sourced
+directly from local planning authorities. The User expressly agrees that the use of the data provided herein is at the User’s sole risk.
+
+In no event shall OPR be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the data or the use or other dealings in the data.
 
 
 ### Zone categorization:
@@ -51,7 +61,7 @@ When the intent and purpose of the zone was unclear, we classified the zone base
 For planned development and specific plan zones where the municipal ordinance does not detail the intent and purpose enough for us to classify the entire zone or zones that are missing in the municipal ordinance, we used the standardized land use class from SCAG to categorize the parcels in these zones into one of the three categories above.
 
 ## License and Attribution
-We are making this data publicly available for broad, noncommercial public use for researchers, policymakers, and the academic community. If you use this data, we request you attribute it to “The Othering &amp Belonging Institute” in your publication and use the citation provided below. If you use it in an online report, we request that you link to our our digital report, [Single-Family Zoning in the San Diego Region Report](https://belonging.berkeley.edu/single-family-zoning-san-diego-region).  
+We are making this data publicly available for broad, noncommercial public use for researchers, policymakers, and the academic community. If you use this data, we request you attribute it to “The Othering &amp Belonging Institute” in your publication and use the citation provided below. If you use it in an online report, we request that you link to our our digital report, [Single-Family Zoning in the Fresno Region Report]().  
 
 If you do use the data, we would love to hear about it! Send us an email at <belonging@berkeley.edu>
 
